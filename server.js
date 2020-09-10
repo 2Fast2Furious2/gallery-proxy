@@ -12,9 +12,9 @@ app.use("/rooms/:roomId", express.static("public"));
 app.use(parser.json());
 app.use(parser.urlencoded({ extended: true }));
 app.use(
-  "/loaderio-64dcbb25009bda07862b56ce811835a3.txt",
+  "/loaderio-61666776d22ea620c67538f6c862d588.txt",
   express.static(
-    path.join(__dirname, "../loaderio-64dcbb25009bda07862b56ce811835a3")
+    path.join(__dirname, "../loaderio-61666776d22ea620c67538f6c862d588")
   )
 );
 
